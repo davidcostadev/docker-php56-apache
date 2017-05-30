@@ -48,10 +48,10 @@ PHPMyAdmin
 
 #### composer create-project cakephp
 
-    $ docker run --rm --interactive --tty --volume $PWD:/app composer create-project --prefer-dist cakephp/app davidcosta
+    $ composer create-project --prefer-dist cakephp/app davidcosta
 
 
 #### composer install
 
-    $ docker run -it --rm --volume $PWD:/app composer install --ignore-platform-reqs --no-scripts
+    $ composer install --ignore-platform-reqs --no-scripts
 
